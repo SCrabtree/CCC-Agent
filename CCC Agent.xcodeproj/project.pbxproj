@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF71DF31AEAA46600085B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF71DF21AEAA46600085B26 /* AppDelegate.swift */; };
+		3DF71DF51AEAA46600085B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF71DF41AEAA46600085B26 /* ViewController.swift */; };
+		3DF71DF81AEAA46600085B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF71DF61AEAA46600085B26 /* Main.storyboard */; };
+		3DF71DFA1AEAA46600085B26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF71DF91AEAA46600085B26 /* Images.xcassets */; };
+		3DF71DFD1AEAA46600085B26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF71DFB1AEAA46600085B26 /* LaunchScreen.xib */; };
+		3DF71E091AEAA46600085B26 /* CCC_AgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF71E081AEAA46600085B26 /* CCC_AgentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF71E031AEAA46600085B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF71DE51AEAA46600085B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF71DEC1AEAA46600085B26;
+			remoteInfo = "CCC Agent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DF71DED1AEAA46600085B26 /* CCC Agent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCC Agent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF71DF11AEAA46600085B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF71DF21AEAA46600085B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DF71DF41AEAA46600085B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF71DF71AEAA46600085B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF71DF91AEAA46600085B26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DF71DFC1AEAA46600085B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DF71E021AEAA46600085B26 /* CCC AgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCC AgentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF71E071AEAA46600085B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF71E081AEAA46600085B26 /* CCC_AgentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCC_AgentTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF71DEA1AEAA46600085B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF71DFF1AEAA46600085B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF71DE41AEAA46600085B26 = {
+			isa = PBXGroup;
+			children = (
+				3DF71DEF1AEAA46600085B26 /* CCC Agent */,
+				3DF71E051AEAA46600085B26 /* CCC AgentTests */,
+				3DF71DEE1AEAA46600085B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF71DEE1AEAA46600085B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF71DED1AEAA46600085B26 /* CCC Agent.app */,
+				3DF71E021AEAA46600085B26 /* CCC AgentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF71DEF1AEAA46600085B26 /* CCC Agent */ = {
+			isa = PBXGroup;
+			children = (
+				3DF71DF21AEAA46600085B26 /* AppDelegate.swift */,
+				3DF71DF41AEAA46600085B26 /* ViewController.swift */,
+				3DF71DF61AEAA46600085B26 /* Main.storyboard */,
+				3DF71DF91AEAA46600085B26 /* Images.xcassets */,
+				3DF71DFB1AEAA46600085B26 /* LaunchScreen.xib */,
+				3DF71DF01AEAA46600085B26 /* Supporting Files */,
+			);
+			path = "CCC Agent";
+			sourceTree = "<group>";
+		};
+		3DF71DF01AEAA46600085B26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF71DF11AEAA46600085B26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DF71E051AEAA46600085B26 /* CCC AgentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF71E081AEAA46600085B26 /* CCC_AgentTests.swift */,
+				3DF71E061AEAA46600085B26 /* Supporting Files */,
+			);
+			path = "CCC AgentTests";
+			sourceTree = "<group>";
+		};
+		3DF71E061AEAA46600085B26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF71E071AEAA46600085B26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF71DEC1AEAA46600085B26 /* CCC Agent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF71E0C1AEAA46600085B26 /* Build configuration list for PBXNativeTarget "CCC Agent" */;
+			buildPhases = (
+				3DF71DE91AEAA46600085B26 /* Sources */,
+				3DF71DEA1AEAA46600085B26 /* Frameworks */,
+				3DF71DEB1AEAA46600085B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCC Agent";
+			productName = "CCC Agent";
+			productReference = 3DF71DED1AEAA46600085B26 /* CCC Agent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF71E011AEAA46600085B26 /* CCC AgentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF71E0F1AEAA46600085B26 /* Build configuration list for PBXNativeTarget "CCC AgentTests" */;
+			buildPhases = (
+				3DF71DFE1AEAA46600085B26 /* Sources */,
+				3DF71DFF1AEAA46600085B26 /* Frameworks */,
+				3DF71E001AEAA46600085B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF71E041AEAA46600085B26 /* PBXTargetDependency */,
+			);
+			name = "CCC AgentTests";
+			productName = "CCC AgentTests";
+			productReference = 3DF71E021AEAA46600085B26 /* CCC AgentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF71DE51AEAA46600085B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sean Crabtree";
+				TargetAttributes = {
+					3DF71DEC1AEAA46600085B26 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3DF71E011AEAA46600085B26 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3DF71DEC1AEAA46600085B26;
+					};
+				};
+			};
+			buildConfigurationList = 3DF71DE81AEAA46600085B26 /* Build configuration list for PBXProject "CCC Agent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF71DE41AEAA46600085B26;
+			productRefGroup = 3DF71DEE1AEAA46600085B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF71DEC1AEAA46600085B26 /* CCC Agent */,
+				3DF71E011AEAA46600085B26 /* CCC AgentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF71DEB1AEAA46600085B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF71DF81AEAA46600085B26 /* Main.storyboard in Resources */,
+				3DF71DFD1AEAA46600085B26 /* LaunchScreen.xib in Resources */,
+				3DF71DFA1AEAA46600085B26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF71E001AEAA46600085B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF71DE91AEAA46600085B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF71DF51AEAA46600085B26 /* ViewController.swift in Sources */,
+				3DF71DF31AEAA46600085B26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF71DFE1AEAA46600085B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF71E091AEAA46600085B26 /* CCC_AgentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF71E041AEAA46600085B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF71DEC1AEAA46600085B26 /* CCC Agent */;
+			targetProxy = 3DF71E031AEAA46600085B26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF71DF61AEAA46600085B26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF71DF71AEAA46600085B26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DF71DFB1AEAA46600085B26 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF71DFC1AEAA46600085B26 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF71E0A1AEAA46600085B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DF71E0B1AEAA46600085B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF71E0D1AEAA46600085B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CCC Agent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DF71E0E1AEAA46600085B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CCC Agent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DF71E101AEAA46600085B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CCC AgentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCC Agent.app/CCC Agent";
+			};
+			name = Debug;
+		};
+		3DF71E111AEAA46600085B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CCC AgentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCC Agent.app/CCC Agent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF71DE81AEAA46600085B26 /* Build configuration list for PBXProject "CCC Agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF71E0A1AEAA46600085B26 /* Debug */,
+				3DF71E0B1AEAA46600085B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF71E0C1AEAA46600085B26 /* Build configuration list for PBXNativeTarget "CCC Agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF71E0D1AEAA46600085B26 /* Debug */,
+				3DF71E0E1AEAA46600085B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DF71E0F1AEAA46600085B26 /* Build configuration list for PBXNativeTarget "CCC AgentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF71E101AEAA46600085B26 /* Debug */,
+				3DF71E111AEAA46600085B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF71DE51AEAA46600085B26 /* Project object */;
+}
